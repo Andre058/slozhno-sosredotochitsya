@@ -1,14 +1,15 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-.page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-attachment: fixed;
-  background: var(--background-image) no-repeat top center, var(--background-color);
-  background-size: auto 768px;
-  color: var(--main-text-color);
-  --transition-duration: 0.25s;
-  transition-duration: var(--transition-duration);
-}
+
+  .page {
+    --transition-duration: 0.25s;
+    background: var(--background-image) no-repeat top center,
+      var(--background-color);
+    background-size: auto 768px;
+    background-attachment: fixed;
+    color: var(--main-text-color);
+    transition-duration: var(--transition-duration);
+  }
 
 .header {
   padding: 0 20px;
