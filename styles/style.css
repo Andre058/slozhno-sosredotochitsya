@@ -100,7 +100,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 @media (width < 1024px) and (width >=768px) {
