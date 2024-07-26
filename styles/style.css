@@ -1,9 +1,14 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
   .page {
-    background: var(--background-image) no-repeat top center, var(--background-color);
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color);
+    font-family: var(--font-family), monospace;
+    background-size: auto 768px;
     background-attachment: fixed;
+    background: var(--background-image) no-repeat top center,
+    var(--background-color);
   }
 
 .header {
