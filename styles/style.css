@@ -13,8 +13,6 @@
 .header {
   padding: 0 20px;
   position: relative;
-  min-block-size: 668px;
-  height: 100vh;
 }
 
 @media (width < 768px) and (width >=375px) {
@@ -416,8 +414,6 @@
   padding: 282px 20px;
   position: relative;
   text-align: center;
-  min-height: 668px;
-  height: 100vh;
 }
 
 .footer__title {
