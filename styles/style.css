@@ -192,7 +192,7 @@
   width: 50%;
 }
 
-@media (width < 425px) {
+@media (width < 767px) {
   .header__subtitle {
     width: 100%;
   }
