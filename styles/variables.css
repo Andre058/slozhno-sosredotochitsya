@@ -1,25 +1,26 @@
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
 
 :root {
-  --font-family: "IBM Plex Mono", monospace;
-  --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --title-shadow: #ff0070;
-  --title-decor: #ff8dcb;
-  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --article-title-color: var(--main-text-color);
-  --section-title-color: var(--main-text-color);
-  --border-color: var(--title-shadow);
-  --corners-color: var(--main-text-color);
-  --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
-  --accent-color: rgba(53, 52, 48, 1);
+  --color: #000028;
+  --font-color: #f1b2ce;
+  --section-title-color: #ff0070;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-decor-color: #000028;
+  --text-decor-color: #000028;
+  --shadow-color: #ff0070;
+  --button-color: #ff0070;
+  --button-border-hover: #ff007040;
+  --backgroundg-color: #000028;
+  --rec-element-color: #ff0070;
+  --angle-element-color: #ff0070;
+  --theme-cover: url(../images/cover-image-dark.png);
 }
+
 .decor {
   display: none;
 }
