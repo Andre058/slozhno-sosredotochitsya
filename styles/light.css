@@ -1,15 +1,6 @@
 
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  
   --color: #fff1f7;
   --font-color: #353430;
   --section-title-color: #353430;
@@ -21,6 +12,7 @@
   --button-color: #353430;
   --button-border-hover: #35343040;
   --backgroundg-color: #fff1f7;
+  --shade-color: #ff0070;
   --rec-element-color: transparent;
   --angle-element-color: #353430;
   --theme-cover: url(../images/cover-image-light.png);
@@ -40,7 +32,7 @@
     --button-color: #353430;
     --button-border-hover: #35343040;
     --backgroundg-color: #fff1f7;
-    --rec-element-color: #ff0070;
+    --shade-color: #ff0070;
     --rec-element-color: transparent;
     --angle-element-color: #353430;
     --theme-cover: url(../images/cover-image-light.png);
