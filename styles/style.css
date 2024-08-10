@@ -254,7 +254,12 @@
     gap: 80px;
   }
 
-  .section-columns {
+  .section-why  {
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+  }
+
+  .section-common {
     grid-template-columns: max-content 1fr;
     gap: 20px;
   }
